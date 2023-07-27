@@ -1,0 +1,16 @@
+.payments {
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    & th,
+    td {
+      padding: 4px 8px;
+      border-bottom: 1px solid grey;
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    text-align: start;
+  }
+}
