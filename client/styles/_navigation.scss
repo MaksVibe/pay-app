@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  gap: 28px;
+
+  padding: 10px 40px;
+
+  color: #232323;
+  text-transform: uppercase;
+
+  &__item {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 18px;
+
+    &:hover {
+      background-color: lightsteelblue;
+      border-color: lightsteelblue;
+      color: white;
+    }
+
+    &.active {
+      background-color: lightsteelblue;
+      border-color: lightsteelblue;
+      color: white;
+    }
+
+    transition: all 350ms ease-in-out;
+  }
+}
